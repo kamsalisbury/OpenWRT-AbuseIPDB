@@ -1,5 +1,5 @@
 #!/bin/ash
-# For the latest script, reference https://github/kamsalisbury/OpenWRT-AbuseIPDB
+# For the latest script, reference https://github.com/kamsalisbury/OpenWRT-AbuseIPDB
 logread -Z 3 \
 | grep DPT \
 | awk '{print $15, $24, $5, $2, $3, $4}' \

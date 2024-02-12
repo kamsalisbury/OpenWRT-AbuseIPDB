@@ -2,7 +2,8 @@
 A purposely simplified script to report port scans to AbuseIPDB
 
 ## Dependencies
-No extra packages required.
+1. No extra packages required.
+2. One firewall configuration change. By default, the WAN->Reject firewall rule, does not log blocked packets. [Enable logging blocked packets](https://openwrt.org/docs/guide-user/firewall/firewall_configuration) via https://<router ip>/cgi-bin/luci/admin/network/firewall (or via command prompt; firewall.@zone[1].log='1')
 
 ## Installation
 1. Copy the script to your OpenWRT device.

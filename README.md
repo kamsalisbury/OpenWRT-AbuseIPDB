@@ -1,11 +1,9 @@
 # OpenWRT-AbuseIPDB
-A purposely simplified script to report port scans to AbuseIPDB.
-
-Everything happens in RAM.
-
-No temp files to degrade flash memory.
-
-Tested on [GL.iNet](https://www.gl-inet.com) Brume2. Implementation artifacts at [https://kamsalisbury.github.io/code/arm/shell/2024/02/11/OpenWRT-AbuseIPDB/](https://kamsalisbury.github.io/code/arm/shell/2024/02/11/OpenWRT-AbuseIPDB/)
+A purposely simplified script to report port scans to [AbuseIPDB](https://www.abuseipdb.com/user/26499).
+Emphasizing efficiency, everything happens in RAM.
+No temporary files to cause degraded flash storage.
+Tested on [GL.iNet](https://www.gl-inet.com/) Brume2, an Arm processor Ash Shell based firewall.
+Implementation artifacts at [https://kamsalisbury.github.io/code/arm/shell/2024/02/11/OpenWRT-AbuseIPDB/](https://kamsalisbury.github.io/code/arm/shell/2024/02/11/OpenWRT-AbuseIPDB/)
 
 ### Disclaimer: Modifying firewall-router operation is an advanced configuration. You are ultimately responsible for the security and operaiton of your network and devices, regardless of any advice-post-script on the Internet or anywhere. 
 

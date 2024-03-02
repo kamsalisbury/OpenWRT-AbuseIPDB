@@ -13,7 +13,7 @@ Implementation artifacts at [https://kamsalisbury.github.io/code/arm/shell/2024/
 
 ## Dependencies
 1. No extra packages required. Only the default [ash shell](https://openwrt.org/docs/guide-user/base-system/user.beginner.cli), awk and sed utiltites are used.
-2. One firewall configuration change. By default, the "WAN->Reject firewall rule" does not log blocked packets. [Enable logging blocked packets](https://openwrt.org/docs/guide-user/firewall/firewall_configuration) via https://your-router-ip/cgi-bin/luci/admin/network/firewall (or via command prompt; firewall.@zone[1].log='1')
+2. One firewall configuration change. By default, the "WAN->Reject firewall rule" does not log blocked packets. [Enable logging blocked packets](https://openwrt.org/docs/guide-user/firewall/firewall_configuration) via https://your-router-ip/cgi-bin/luci/admin/network/firewall (or via command prompt; uci set firewall.@zone[1].log='1')
 
 ## Installation
 1. Copy the script to your OpenWRT device.

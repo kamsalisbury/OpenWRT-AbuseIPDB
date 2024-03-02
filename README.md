@@ -5,7 +5,7 @@ Everything happens in RAM.
 
 No temp files to degrade flash memory.
 
-Tested on [GL.iNet](https://www.gl-inet.com) Brume2
+Tested on [GL.iNet](https://www.gl-inet.com) Brume2. Implementation artifacts at [https://kamsalisbury.github.io/code/arm/shell/2024/02/11/OpenWRT-AbuseIPDB/](https://kamsalisbury.github.io/code/arm/shell/2024/02/11/OpenWRT-AbuseIPDB/)
 
 ### Disclaimer: Modifying firewall-router operation is an advanced configuration. You are ultimately responsible for the security and operaiton of your network and devices, regardless of any advice-post-script on the Internet or anywhere. 
 

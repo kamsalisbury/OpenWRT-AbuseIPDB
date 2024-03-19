@@ -18,5 +18,6 @@ Implementation artifacts at [https://kamsalisbury.github.io/code/arm/shell/2024/
 ## Installation
 1. Copy the script to your OpenWRT device.
 2. Edit the second to the last line of the script, inputting your "AbuseIPDB API Key" from [https://www.abuseipdb.com/account/api](https://www.abuseipdb.com/account/api)
-3. [Edit the crontab](https://www.redhat.com/sysadmin/linux-cron-command) to execute the script at least [once per a day](https://crontab.guru/once-a-day).
-4. Optional: [Add the AbsueIPDB verfication code to your website](https://www.abuseipdb.com/account/webmasters).
+3. Edit the second to the last line of the script, modifying the last portion of the timestamp value to reflect the correct time zone configuration for the router's location (or configure the router to use UTC and set the last portion of the timestamp value to -00:00)
+4. [Edit the crontab](https://www.redhat.com/sysadmin/linux-cron-command) to execute the script at least [once per a day](https://crontab.guru/once-a-day).
+5. Optional: [Add the AbsueIPDB verfication code to your website](https://www.abuseipdb.com/account/webmasters).

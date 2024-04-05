@@ -9,7 +9,7 @@ Tested on [GL.iNet](https://www.gl-inet.com/) Brume2, an Arm processor Ash Shell
 
 Implementation artifacts at [https://kamsalisbury.github.io/code/arm/shell/2024/02/11/OpenWRT-AbuseIPDB/](https://kamsalisbury.github.io/code/arm/shell/2024/02/11/OpenWRT-AbuseIPDB/)
 
-### Disclaimer: Modifying firewall-router operation is an advanced configuration. You are ultimately responsible for the security and operaiton of your network and devices, regardless of any advice-post-script on the Internet or anywhere. 
+### Disclaimer: Modifying firewall-router operation is an advanced configuration. You are ultimately responsible for the security and operation of your network and devices, regardless of any advice-post-script on the Internet or anywhere. 
 
 ## Dependencies
 1. No extra packages required. Only the default [ash shell](https://openwrt.org/docs/guide-user/base-system/user.beginner.cli), awk and sed utiltites are used.

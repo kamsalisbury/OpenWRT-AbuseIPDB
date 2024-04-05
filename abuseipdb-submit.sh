@@ -27,5 +27,5 @@ logread -Z 3 \
 | sed 's/ 7 / 07 /g' \
 | sed 's/ 8 / 08 /g' \
 | sed 's/ 9 / 09 /g' \
-| awk '{print "curl https://api.abuseipdb.com/api/v2/report \-\-data\-urlencode ip\="$1 " \-d categories\=14 \-\-data\-urlencode \"comment\=Portscan "$2"\" \-\-data\-urlencode \"timestamp\="$3"\-"$4"\-"$5"T"$6"-05:00\" \-H \"Key: <Your AbuseIPDB API Key>\" \-H \"Accept: application/json\""}' \
+| awk '{print "curl https://api.abuseipdb.com/api/v2/report \-\-data\-urlencode ip\="$1 " \-d categories\=14 \-\-data\-urlencode \"comment\=Portscan "$2"\" \-\-data\-urlencode \"timestamp\="$3"\-"$4"\-"$5"T"$6"+00:00\" \-H \"Key: <Your AbuseIPDB API Key>\" \-H \"Accept: application/json\""}' \
 | sh

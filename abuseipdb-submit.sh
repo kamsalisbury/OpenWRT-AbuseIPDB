@@ -4,7 +4,7 @@
 #               Router configured to use UTC time.
 logread -Z 3 \
 | grep DPT \
-| awk '{print $16, $25, $5, $2, $3, $4}' \
+| awk '{print $15, $25, $5, $2, $3, $4}' \
 | grep DPT \
 | awk '{gsub(/SRC=|DPT=/, ""); print}' \
 | awk '!seen[$1]++' \
